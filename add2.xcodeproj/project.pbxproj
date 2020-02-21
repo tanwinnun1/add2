@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		AC708FC323D12FA500D00DF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC708FC223D12FA500D00DF3 /* AppDelegate.swift */; };
 		AC708FC523D12FA500D00DF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC708FC423D12FA500D00DF3 /* SceneDelegate.swift */; };
-		AC708FC723D12FA500D00DF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC708FC623D12FA500D00DF3 /* ViewController.swift */; };
+		AC708FC723D12FA500D00DF3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC708FC623D12FA500D00DF3 /* GameViewController.swift */; };
 		AC708FCA23D12FA500D00DF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC708FC823D12FA500D00DF3 /* Main.storyboard */; };
 		AC708FCC23D12FA600D00DF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC708FCB23D12FA600D00DF3 /* Assets.xcassets */; };
 		AC708FCF23D12FA600D00DF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC708FCD23D12FA600D00DF3 /* LaunchScreen.storyboard */; };
 		AC708FDA23D12FA600D00DF3 /* add2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC708FD923D12FA600D00DF3 /* add2Tests.swift */; };
 		AC708FE523D12FA600D00DF3 /* add2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC708FE423D12FA600D00DF3 /* add2UITests.swift */; };
+		AC708FF523D1365F00D00DF3 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = AC708FF423D1365F00D00DF3 /* HVD_Comic_Serif_Pro.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +39,7 @@
 		AC708FBF23D12FA500D00DF3 /* add2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = add2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC708FC223D12FA500D00DF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC708FC423D12FA500D00DF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC708FC623D12FA500D00DF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC708FC623D12FA500D00DF3 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		AC708FC923D12FA500D00DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC708FCB23D12FA600D00DF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC708FCE23D12FA600D00DF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		AC708FE023D12FA600D00DF3 /* add2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = add2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC708FE423D12FA600D00DF3 /* add2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add2UITests.swift; sourceTree = "<group>"; };
 		AC708FE623D12FA600D00DF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC708FF423D1365F00D00DF3 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = HVD_Comic_Serif_Pro.otf; path = "../../../../Downloads/HVD-Comic-Serif-Pro/HVD_Comic_Serif_Pro.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				AC708FC223D12FA500D00DF3 /* AppDelegate.swift */,
 				AC708FC423D12FA500D00DF3 /* SceneDelegate.swift */,
-				AC708FC623D12FA500D00DF3 /* ViewController.swift */,
+				AC708FC623D12FA500D00DF3 /* GameViewController.swift */,
 				AC708FC823D12FA500D00DF3 /* Main.storyboard */,
 				AC708FCB23D12FA600D00DF3 /* Assets.xcassets */,
 				AC708FCD23D12FA600D00DF3 /* LaunchScreen.storyboard */,
 				AC708FD023D12FA600D00DF3 /* Info.plist */,
+				AC708FF423D1365F00D00DF3 /* HVD_Comic_Serif_Pro.otf */,
 			);
 			path = add2;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 			files = (
 				AC708FCF23D12FA600D00DF3 /* LaunchScreen.storyboard in Resources */,
 				AC708FCC23D12FA600D00DF3 /* Assets.xcassets in Resources */,
+				AC708FF523D1365F00D00DF3 /* HVD_Comic_Serif_Pro.otf in Resources */,
 				AC708FCA23D12FA500D00DF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC708FC723D12FA500D00DF3 /* ViewController.swift in Sources */,
+				AC708FC723D12FA500D00DF3 /* GameViewController.swift in Sources */,
 				AC708FC323D12FA500D00DF3 /* AppDelegate.swift in Sources */,
 				AC708FC523D12FA500D00DF3 /* SceneDelegate.swift in Sources */,
 			);
